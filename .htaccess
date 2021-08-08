@@ -1,0 +1,28 @@
+RewriteEngine on
+
+DirectoryIndex index.php
+
+ErrorDocument 404 /cavsa/404.php
+
+RewriteRule ^Anasayfa$ index.php [NC,L]
+
+RewriteRule ^Kurumsal$ about.php [NC,L]
+
+RewriteRule ^Faaliyetlerimiz$ faaliyetlerimiz.php [NC,L]
+
+RewriteRule ^Urunler$ urunler.php [NC,L]
+
+RewriteRule ^urun$ urun-detay.php [NC,L]
+
+RewriteRule ^Iletisim$ iletisim.php [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+RewriteRule ^urun/([0-9a-zA-Z-_]+)/([0-9]+)$ urun-detay.php?sef=$1&DETAY=$2 [L,QSA]
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php56 .php .phtml
+# php -- END cPanel-generated handler, do not edit
