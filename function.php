@@ -8,18 +8,17 @@ if (isset($_POST['login'])) {
 
 }
 
+function kisalt($metin, $uzunluk){
+// substr ile belirlenen uzunlukta kesiyoruz
+		$metin = substr($metin, 0, $uzunluk)."...";
+// kesilen metindeki son kelimeyi buluyoruz
+		$metin_son = strrchr($metin, " ");
+// son kelimeyi " ..." ile değiştiriyoruz
+		$metin = str_replace($metin_son," ...", $metin);
 
-/*
-	function kontrol () {
-		$yonetici_adi=$_SESSION['KULLANICI_ADI'];
-		$yoneticisor=mysql_query("select * from login where KULLANICI_ADI='$yonetici_adi'");
-		$yoneticisay=mysql_num_rows($yoneticisor);
+		return $metin;
+}
 
-		if ($yoneticisay==0) {
-			header('Location:login.php');
-		}
-	}
-*/
 	function seo($s) {
 		$tr = array('ş','Ş','ı','I','İ','ğ','Ğ','ü','Ü','ö','Ö','Ç','ç','(',')','/',' ',',','?');
 		$eng = array('s','s','i','i','i','g','g','u','u','o','o','c','c','','','-','-','','');
@@ -34,4 +33,15 @@ if (isset($_POST['login'])) {
 		return $s;
 	}
 
+	/*
+		function kontrol () {
+			$yonetici_adi=$_SESSION['KULLANICI_ADI'];
+			$yoneticisor=mysql_query("select * from login where KULLANICI_ADI='$yonetici_adi'");
+			$yoneticisay=mysql_num_rows($yoneticisor);
+
+			if ($yoneticisay==0) {
+				header('Location:login.php');
+			}
+		}
+	*/
 	?>

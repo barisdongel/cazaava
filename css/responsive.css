@@ -1,0 +1,942 @@
+@media (max-width:1650px){
+    .testimonial_controler{
+        padding-left: 0;
+    }
+    .testimonial_controler .carousel-indicators{
+        margin-right: -100px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(5){
+        left: 190px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(1){
+        left: 80px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(4){
+        left: 245px;
+    }
+}
+@media (max-width:1550px){
+    .fiona_service_left img{
+        right: 0;
+    }
+    .fiona_service_right{
+        padding-right: 15px;
+    }
+}
+@media (max-width:1400px){
+    .slider_text{
+        margin-left: 0;
+    }
+    .fiona_service_item_three{
+        padding: 28px 20px 35px;
+    }
+    .testimonial_controler .carousel-indicators{
+        margin-right: -10px;
+    }
+    .testimonial_controler .carousel-indicators:before{
+        background-size: contain;
+        top: 10px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(2) {
+        top: 242px;
+        left: -3px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(3){
+        right: -20px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(4){
+        left: 220px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(6) {
+        bottom: 52px;
+        right: -7px;
+    }
+    .slider_text_three{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:1199px){
+    .fiona_features_inner .fiona_features_item{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .fiona_slider_area .slider_nav .right_arrow{
+        right: 0px;
+    }
+    .fiona_slider_area .slider_nav .left_arrow{
+        left: 0px;
+    }
+    .appointment_form {
+        padding: 0px 0px 55px 30px;
+    }
+    .team_item .team_content ul li a{
+        word-break: break-all;
+    }
+    .team_item .team_content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .fiona_blog_item{
+        padding: 10px;
+    }
+    .fiona_blog_item .media_left{
+        margin-right: 15px;
+    }
+    .fiona_blog_item .media-body p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .f_widget.link_widget, .f_widget.contact_info_widget {
+        padding-left: 0px;
+    }
+    .fiona_features_inner .fiona_features_item h4 {
+        font-size: 21px;
+    }
+    .about_video_inner .slider_nav{
+        right: 0;
+    }
+    .main_slider_two .women_img{
+        margin-left: -80px;
+    }
+    .main_slider_two .women_img img,.clients_item_two img,.about_author_img img,.fiona_blog_item_two img{
+        max-width: 100%;
+    }
+    .main_slider_two {
+        height: 650px;
+    }
+    .fiona_blog_item_two .hover_content{
+        padding: 30px 15px;
+    }
+    .fiona_about_content_three{
+        padding-top: 0;
+    }
+    .fiona_team_area_three .pl-113{
+        padding-left: 15px;
+    }
+    .fiona_service_left img{
+        max-width: 120%;
+    }
+    .fiona_service_left{
+        margin-right: 15px;
+    }
+    .fiona_service_right{
+        padding-right: 0;
+    }
+    .fiona_about_area_three .about_author_img .about_dot {
+        max-width: 72%;
+    }
+    .blog_item img,.widget_add img,.service_details_inner img{
+        max-width: 100%;
+    }
+    .service_details_inner{
+        padding-right: 0;
+    }
+    .blog_left_inner{
+        padding-right: 0px;   
+    }
+    .widget_post .post_inner .post_thumb img,.widget_comments .w_comments_inner .w_comments_item .icon{
+        margin-right: 16px;
+    }
+    .widget_add .content{
+        padding: 0px 15px;
+    }
+    .widget_comments .w_comments_inner .w_comments_item{
+        padding-right: 0;
+    }
+    .widget_booking .fiona_appointment_inner_two{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pr_100{
+        padding-right: 0;    
+    }
+    .testimonial_controler .carousel-indicators:before{
+        top: 100px;
+        right: 10px;
+    }
+    .testimonial_controler .carousel-indicators {
+        margin-right: -10px;
+        padding-top: 54px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(1) {
+        left: 38px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(4) {
+        left: 153px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(5){
+        bottom: 0px;
+        left: 100px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(3){
+        right: -10px;
+        top: 45px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(2) {
+        top: 271px;
+        left: -20px;
+    }
+    .contact_form_inner {
+        padding: 100px 30px;
+    }
+    .fiona_blog_item .media_body .post_info{
+        margin-bottom: 0;
+    }
+    .header_top_three .header_contact_info_two a + a {
+        margin-left: 34px;
+    }
+    .header_top_three .btn_effect{
+        padding: 20px 30px 16px;
+    }
+    .fiona_appointment_area_three .section_title_two {
+        padding-right: 0px;
+    }
+    .about_p_img .about_img{
+        max-width: 100%;
+    }
+    .categorie_item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .new_service_area .service_right{
+        width: calc(50% + 465px);
+    }
+    .new_service_area .service_left{
+        width: calc(50% - 465px);
+    }
+    .new_service_area .service_right .service_title{
+        max-width: 930px;
+    }
+    .f_tab_three .tab-pane .media{
+        display: block !important;
+        padding-left: 25px;
+    }
+    .f_tab_three .tab-pane .media img{
+        margin-right: 0;
+    }
+    .f_tab_three .tab-pane .media .media-body{
+        padding-top: 35px;
+    }
+    .fiona_footer_area_three .f_widget.contact_info_widget{
+        padding-right: 0;
+    }
+    .fiona_footer_area_three .f_widget.link_widget.pl_50{
+        padding-left: 0;
+    }
+}
+
+@media (max-width:991px){
+    .navbar-brand{
+        padding-top: 10px;
+        padding-bottom: 14px;
+    } 
+    .navbar{
+        padding: 0px 0px;
+    }
+    .menu > .nav-item{
+        padding: 5px 0px;
+        margin-right: 0;
+        border-bottom: 1px solid #ededed;
+    }
+    .menu > .nav-item.submenu > .nav-link:after{
+        content: "\e64b";
+        font-family: 'themify';
+        display: inline-block;
+        border: 0px;
+        position: absolute;
+        right: 0;
+        width: auto;
+        font-size: 10px;
+    }
+    .navbar .btn_effect{
+        margin-top: 10px;
+    }
+    .navbar-nav + .navbar-nav{
+        padding-bottom: 15px;
+    }
+    .menu > .nav-item.submenu .dropdown-menu{
+        padding: 0px 30px 10px;
+        left: 0;
+        box-shadow: none;
+    }
+    .navbar-collapse{ 
+        padding: 0px 15px 0px;
+    }
+    .baSlider > .frame{
+        height: 350px;
+    }
+    .promo_inner .handler{
+        width: 80px;
+        height: 80px;
+    }
+    .promo_inner .handler img{
+        max-width: 100%;
+    }
+    .fiona_features_inner .fiona_features_item,.navbar>.container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about_content .s_title_p {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .about_video_inner{
+        padding-right: 80px;
+    }
+    .header_contact_info a{
+        font-size: 13px;
+    }
+    .slider_text{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .testimonial_slider .testimonial_content{
+        padding: 40px 30px;
+    }
+    .fiona_clients_area .row{
+        justify-content: center;
+    }
+    .appointment_form {
+        padding: 0px 20px 55px 20px;
+        margin-right: 0px;
+    }
+    .fiona_appointment_inner .s_title{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .appointment_form .form-group .appoinment_btn{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .team_img img,.team_item_three img,.blog_item img{
+        width: 100%;
+    }
+    .team_content_info{
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .team_item,.counter_item,.fiona_blog_item_two{
+        margin-bottom: 30px;
+    }
+    .fiona_team_area .row,.fiona_blog_area .row,.fiona_counter_area .row,.footer_top .row,.fiona_blog_area_two .row{
+        margin-bottom: -30px;
+    }
+    .fiona_blog_item .media_left .blog_img{
+        background-size: cover !important;
+    }
+    .fiona_blog_item{
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .fiona_subscribe_info{
+        padding: 63px 18px;
+    }
+    .fiona_subscribe_info .subscribe{
+        padding-left: 20px;
+    }
+    .portfolio_img img{
+        width: 100%;
+    }
+    .f_widget{
+        margin-bottom: 40px;
+    }
+    .main_slider_two {
+        height: auto;
+        padding-top: 100px;
+    }
+    .main_slider_two .slider_text{
+        margin-bottom: 40px;
+    }
+    .fiona_about_content{
+        padding-top: 0;
+    }
+    .about_author_img{
+        margin-top: 30px;
+    }
+    .portfolio_slider .portfolio_img .hover_content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .testimonial_slider_two .testimonial_content {
+        padding: 90px 18px 40px;
+    }
+    .fiona_clients_logo_area_two .row,.fiona_clients_logo_area_three .row{
+        justify-content: center !important;
+        margin-bottom: -30px;
+    }
+    .clients_item_two{
+        margin-bottom: 50px;
+    }
+    .about_author_img{
+        padding-left: 0;
+    }
+    .fiona_appointment_inner_two .appointment_form{
+        margin-right: 0;
+    }
+    .fiona_blog_item_three .media-body {
+        padding: 50px 10px 27px;
+    }
+    .fiona_blog_list_item{
+        padding: 20px 30px;
+    }
+    .fiona_service_left,.fiona_service_right{
+        width: 100%;
+    }
+    .fiona_service_inner{
+        display: block;
+    }
+    .fiona_service_left img{
+        position: relative;
+    }
+    .fiona_service_right{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0px 15px;
+    }
+    .fiona_service_left img{
+        max-width: 100%;
+    }
+    .blog_item .post_author img{
+        width: auto;
+    }
+    .blog_sidebar_right,.service_right_sidebar{
+        margin-top: 50px;
+    }
+    .comment_box .post_comment .reply_comment{
+        padding-left: 100px;
+    }
+    .breadcrumb_content h1 br{
+        display: none;
+    }
+    .widget_add{
+        max-width: 350px;
+    }
+    .faq_inner .accordion .card .card-header h2 button{
+        padding: 15px 80px 15px 20px;
+        word-break: break-word;
+        white-space: normal;
+    }
+    .faq_inner .accordion .card .card-body{
+        padding: 30px 15px;
+    }
+    .testimonial_controler .carousel-indicators {
+        height: 500px;
+        max-width: 450px;
+        padding-top: 0px;
+        margin-top: 70px;
+        margin: 70px auto 0px;
+    }
+    .testimonial_controler .carousel-indicators:before{
+        top: 0;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(5) {
+        bottom: -30px;
+        left: 159px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(4) {
+        left: 212px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(3){
+        top: -10px;
+    }
+    .fiona_appointment_inner .left_img,.header_top_three .header_contact_info_two .top_logo{
+        display: none;
+    }
+    .fiona_subscribe_info .subscribe{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .fiona_subscribe_info{
+        display: block;
+    }
+    .fiona_subscribe_info .subscribe_content,.fiona_subscribe_info .subscribe{
+        max-width: 100%;
+    }
+    .fiona_subscribe_info .subscribe_content{
+        text-align: center;
+    }
+    .menu_three .menu_toggle .hamburger-cross span,.menu_three .menu_toggle .hamburger span{
+        background: #f06082;
+    }
+    .header_top_three .header_contact_info_two a + a {
+        margin-left: 9px;
+    }
+    .header_top_three .header_contact_info_two a {
+        font-size: 14px;
+    }
+    .header_top_three .btn_effect {
+        padding: 11px 11px 11px;
+    }
+    .menu_four .navbar-brand{
+        display: block;
+    }
+    .menu_four .menu > .nav-item {
+        padding: 9px 0px;
+    }
+    .fiona_appointment_area_three .appointment_form{
+        padding-left: 0;
+    }
+    .fiona_appointment_area_three .section_title_two{
+        margin-bottom: 50px;
+    }
+    .about_content_four{
+        padding-right: 0;
+    }
+    .about_p_img {
+        padding-right: 25px;
+    }
+    .about_content_four h2{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .categorie_area .row,.team_area_four .row{
+        justify-content: center;
+    }
+    .categorie_area {
+        padding-top: 0;
+    }
+    .new_service_area .service_left{
+        display: none;
+    }
+    .new_service_area .service_right{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .f_tab_three .tab-pane .media{
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .price_info .price_item{
+        margin-bottom: 30px;
+    }
+    .price_info{
+        margin-bottom: -30px;
+    }
+    .price_info .price_item .price_body{
+        padding: 0px 25px;
+    }
+}
+
+@media (max-width:767px){
+    .header_contact_info,.header_top .text-right{
+        text-align: center !important;
+    }
+    .header_top{
+        padding: 5px;
+    }
+    .slider_text{
+        padding: 25px;
+    }
+    .slider_text h1 {
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .fiona_features_one_area,.fiona_about_area_two{
+        padding-top: 80px;   
+    }
+    .fiona_features_inner{
+        margin-top: 0;
+        display: block;
+        padding: 0px;
+    }
+    .fiona_features_inner .fiona_features_item{
+        width: 100%;
+        padding: 40px 30px;
+    }
+    .fiona_features_inner .fiona_features_item + .fiona_features_item{
+        border-top: 1px solid #e7f4fe;
+    }
+    .main_slider{
+        height: 600px;
+    }
+    .main_slider_two{
+        height: auto;
+    }
+    .main_slider .slider_item{
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+    }
+    .about_video_inner{
+        padding-right: 0;
+    }
+    .fiona_service_item{
+        padding: 35px 15px;
+    }
+    .fiona_about_area_one{
+        padding-top: 80px;
+    }
+    .fiona_service_area {
+        padding: 190px 0px 80px;
+    }
+    .portfolio_filter .work_portfolio_item + .work_portfolio_item {
+        margin-left: 15px;
+    }
+    .fiona_clients_area .clients_item{
+        max-width: 100%;
+    }
+    .appointment_form{
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sec_pad{
+        padding: 80px 0px;
+    }
+    .fiona_clients_area {
+        padding: 80px 0px 140px;
+    }
+    .portfolio_info .slider_nav_two{
+        position: relative;
+    }
+    .fiona_team_area_two .row{
+        justify-content: center;
+    }
+    .main_slider_two .women_img{
+        margin-left: 0;
+    }
+    .fiona_appointment_inner_two{
+        padding: 60px 20px;
+    }
+    .main_slider_three .slider_text h1 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+    .s_title_p br{
+        display: none;
+    
+    }
+    .blog_rlated_post .row{
+        margin-bottom: -30px;
+        justify-content: center;
+    }
+    .blog_rlated_post .related_post {
+        margin-bottom: 30px;
+    }
+    .blog_rlated_post .related_post img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .blog_sidebar_right{
+        max-width: 100%;
+    }
+    .testimonial_carousel_content img {
+        margin-right: 20px;
+    }
+    .testimonial_area_three{
+        padding: 80px 0px 100px;
+    }
+    .contact_inner .contact_info{
+        padding: 100px 30px;
+    }
+    .counter_item{
+        margin-bottom: 50px;
+    }
+    .fiona_blog_item .media_left{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+    .fiona_blog_item .media_left .blog_img {
+        position: relative;
+        width: 100%;
+        height: 360px;
+    }
+    .fiona_blog_item{
+        display: block;
+    }
+    .main_slider_four.main_slider .slider_text_three h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .header_top_three,.section_title_two p br{
+        display: none;
+    }
+    .emergency_call_content{
+        justify-content: center;
+        text-align: center;
+    }
+    .emergency_call_content .view_btn{
+        margin-top: 25px;
+    }
+    .new_service_area .service_right .service_title{
+        display: block !important;
+        overflow: hidden;
+    }
+    .new_service_area .service_right .service_title .section_title_two{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .features_tab_info .nav-tabs{
+        padding-right: 0;
+    }
+    .about_p_img{
+        margin-top: 50px;
+    }
+    .categorie_area{
+        padding-bottom: 80px;
+    }
+    .new_service_area{
+        padding-top: 80px;
+    }
+    .features_area_three {
+        padding: 100px 0px 80px;
+    }
+}
+@media (max-width:576px){
+    .slider_text {
+        padding: 25px 10px;
+    }
+    .slider_text h1 {
+        font-size: 33px;
+        line-height: 47px;
+    }
+    .about_video_inner img{
+        max-width: 100%;
+    }
+    .about_video_inner .video_icon{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+    .slider_nav i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 10px;
+    }
+    .slider_nav .right_arrow{
+        right: 0px;
+    }
+    .slider_nav .left_arrow{
+        left: 0px;
+    }
+    .fiona_slider_area .slider_nav{
+        opacity: 0;
+        transition: all 0.3s linear;
+    }
+    .fiona_slider_area:hover .slider_nav{
+        opacity: 1;
+    }
+    .about_video_inner .slider_nav i{
+        margin: 5px 0px;
+    }
+    .s_title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .s_title br{
+        display: none;
+    }
+    .fiona_blog_item .media_left{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .fiona_blog_item .media_left .blog_img {
+        position: relative;
+        width: 100%;
+        height: 360px;
+    }
+    .fiona_blog_item{
+        display: block;
+    }
+    .team_item .team_content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .slider_nav_two{
+        margin-bottom: 40px;
+    }
+    .fiona_appointment_inner .s_title{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header_contact_info a i {
+        margin-right: 3px;
+    }
+    .header_contact_info a + a{
+        margin-left: 0;
+    }
+    .clients_item_two{
+        display: block;
+        text-align: center;
+    }
+    .baSlider > .frame{
+        height: 250px;
+    }
+    .fiona_blog_item_two img {
+        width: 100%;
+    }
+    .fiona_blog_item.fiona_blog_item_three .media_left{
+        margin-bottom: 0;
+    }
+    .fiona_blog_item_three .media-body{
+        padding-top: 30px;
+    }
+    .mb_70 {
+        margin-bottom: 40px;
+    }
+    .video_post .video_icon {
+        width: 60px;
+        line-height: 60px;
+        height: 60px;
+    }
+    .post_author .img_rounded{
+        margin-right: 12px;
+    }
+    .post_author_two{
+        padding: 30px 20px;
+    }
+    .blog_comment_box .d-flex{
+        display: block !important;
+    }
+    .get_quote_form .input_fill{
+        margin-bottom: 15px;
+    }
+    .testimonial_controler {
+        padding-left: 15px;
+    }
+    .main_slider_three .slider_text h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .main_slider_four.main_slider .slider_text_three h1{
+        font-size: 40px;
+    }
+    .f_tab_three .tab-pane .media img{
+        max-width: 100%;
+    }
+    .testimonial_slider_four{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .testimonial_slider_four p{
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+    .testimonial_slider_four .slick-dots{
+        right: 20px;
+        bottom: 20px;
+    }
+    
+    .emergency_call_content .text a{
+        font-size: 30px;
+    }
+    .section_title_two h2{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:480px){
+    .fiona_counter_area .counter_item,.fiona_subscribe_info .subscribe_content,.portfolio_filter,.fiona_subscribe_info .subscribe,.fiona_team_area_two .row{
+        display: block;
+        text-align: center;
+    }
+    .portfolio_filter .work_portfolio_item{
+        display: inline-block;
+    }
+    .counter_item{
+        display: block;
+    }
+    .counter_item img{
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .fiona_subscribe_info .subscribe .btn-submit{
+        padding: 19px 33px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .fiona_subscribe_info .subscribe .form-control{
+        width: 100%;
+    }
+    .fiona_team_area_two .col-6{
+        width: 100%;
+        max-width: 100%;
+        flex: 1;
+    }
+    .hover_bg img{
+        width: 100%;
+    }
+    .blog_item .blog_content .d-flex,.testimonial_carousel_content{
+        display: block !important;
+    } 
+    .blog_item .post_info{
+        margin-bottom: 10px;
+    }
+    .blog_item .post_author{
+        margin-top: 16px;
+    }
+    .qutoe_post{
+        padding: 30px 20px;
+    }
+    .breadcrumb_content h1{
+        font-size: 40px;
+    }
+    .testimonial_carousel_content img{
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+    .testimonial_controler .carousel-indicators{
+        max-width: 280px;
+        height: 373px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(2) {
+        top: 161px;
+        left: -32px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(4) {
+        left: 106px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(5){
+        left: 69px; 
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(1) {
+        left: 10px;
+    }
+    .testimonial_controler .carousel-indicators li:nth-child(3) {
+        top: -23px;
+    }
+    .comingsoon_content .subscrib_form{
+        display: block;
+        margin: 0 auto 40px;
+    }
+    .comingsoon_content .subscrib_form .form-control{
+        width: 100%;   
+    }
+    .comingsoon_content .subscrib_form .subscribe{
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .comingsoon_content .timer__section {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .comingsoon_content .btn_effect {
+        margin: 0px 0px 40px;
+    }
+    .main_slider_four.main_slider .slider_text_three h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width:390px){
+    .header_top{
+        display: none;
+    }
+    .post_author{
+        display: block;
+    }
+    .post_author .img_rounded{
+        margin-bottom: 20px;
+    }
+    .comment_box .post_comment .reply_comment {
+        padding-left: 0;
+    }
+}
