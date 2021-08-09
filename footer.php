@@ -15,5 +15,7 @@
 <script src="js/gmaps.min.js"></script>
 <script src="js/map-active.js"></script>
 <script src="js/custom.js"></script>
+
+<script src="js/barisdilcevirici.js"></script>
 </body>
 </html>

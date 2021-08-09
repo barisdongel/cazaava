@@ -3,6 +3,63 @@ ob_start();
 session_start();
 include 'baglan.php';
 
+
+/*
+GÜNCELLEME İŞLEMLERİ
+*/
+
+//Genel Ayarlar Güncelleme İşlemi
+if (isset($_POST['ayarguncelle'])) {
+
+	$ayarsor =$db->prepare("SELECT * FROM ayar_tbl");
+	$ayarsor->execute(array(0));
+	$ayarcek=$ayarsor->fetch(PDO::FETCH_ASSOC);
+
+	if ($_FILES['ayar_logo']['size'] != 0) {
+		$uploads_dir = 'img/';
+		@$tmp_name = $_FILES['ayar_logo']["tmp_name"];
+		@$name = $_FILES['ayar_logo']["name"];
+		$refimgyol = $uploads_dir.$name;
+		@move_uploaded_file($tmp_name, "$uploads_dir/$name");
+	}else {
+		$refimgyol = $ayarcek['ayar_logo'];
+	}
+
+	$ayarkaydet=$db->prepare("UPDATE ayar_tbl SET
+		ayar_siteurl=:siteurl,
+		ayar_title=:title,
+		ayar_desc=:description,
+		ayar_author=:author,
+		ayar_key=:key,
+		ayar_baslik=:baslik,
+		ayar_footer=:footer,
+		ayar_logo=:logo,
+		ayar_googlemap=:map,
+		ayar_calismasaatleri=:saat
+		WHERE ayar_id=0
+		");
+		$update=$ayarkaydet->execute(array(
+			'siteurl' => $_POST['ayar_siteurl'],
+			'title' => $_POST['ayar_title'],
+			'description' => $_POST['ayar_desc'],
+			'author' => $_POST['ayar_author'],
+			'key' => $_POST['ayar_key'],
+			'baslik' => $_POST['ayar_baslik'],
+			'footer' => $_POST['ayar_footer'],
+			'map' => $_POST['ayar_googlemap'],
+			'saat' => $_POST['ayar_calismasaatleri'],
+			'logo' => $refimgyol
+		));
+
+		if ($update) {
+			Header("Location:admin/ayarlar.php?durum=ok");
+		}
+		else{
+			Header("Location:admin/ayarlar.php?durum=no");
+		}
+	}
+
+
 /*ÜRÜN İŞLEMLERİ*/
 
 //Ürün Ekleme

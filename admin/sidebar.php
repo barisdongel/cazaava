@@ -11,7 +11,7 @@ $kullanicicek=$kullanicisor->fetch(PDO::FETCH_ASSOC);
       <li class="dropdown active" style="display: block;">
         <div class="sidebar-profile">
           <div class="siderbar-profile-pic">
-            <img src="<?php echo $kullanicicek['kullanici_foto'] ?>" class="profile-img-circle box-center" alt="User Image">
+            <img src="<?=$kullanicicek['kullanici_foto'] ?>" class="profile-img-circle box-center" alt="User Image">
           </div>
           <div class="siderbar-profile-details">
             <div class="siderbar-profile-name">HOŞGELDİN</div>

@@ -63,7 +63,14 @@ $urunler->execute(array(0));
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <h2>AVA ROAD ARCHIVE FROM CAZADORE !</h2>
+            <h2><?php echo $ayarcek['ayar_baslik']; ?></h2>
+          </div>
+          <div class="col-lg-2 col-6 lang text-center">
+            <h6 style="border-bottom:1px solid #ddd;">Dil Tercihleri</h6>
+            <a href="#" onclick="doGTranslate('auto|tr');return false;" title="Turkish"><img src="img/lang/tr.gif" alt="tr"> </a>
+            <a href="#" onclick="doGTranslate('auto|en');return false;" title="English"><img src="img/lang/en.gif" alt="en"></a>
+            <a href="#" onclick="doGTranslate('auto|ar');return false;" title="Arabic"><img src="img/lang/ar.gif" alt="ar"></a>
+            <a href="#" onclick="doGTranslate('auto|es');return false;" title="Espanol"><img src="img/lang/es.gif" alt="es"></a>
           </div>
         </div>
       </nav>
